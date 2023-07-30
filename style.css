@@ -1,0 +1,225 @@
+.navbar{
+    height: 100%;
+    width: 100vw;
+    /* background-color: #000; */
+    position: relative;
+    color: #000;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 2vw; */
+    margin: 0 0;
+    font-family: 'Trebuchet MS'; 
+}
+
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.logo{
+    height: 4.5vw;
+    margin-left: 4.2vw;
+    margin-top: 1.4vw;
+    
+}
+
+.navbar button{
+    font-size: 1vw;
+    padding:0.5vw 1vw;
+    background-color: #385A64;
+    font-family: 'Trebuchet MS';
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    height: 3vw;
+    width:7vw;
+    margin-top: 19px;
+}
+
+body{margin: 0 0;
+
+padding-right:0%;}
+
+.navbarpt2{
+
+    display: flex;
+    gap: 3vw;
+    font-size: 3vh; 
+    margin-right: 60px;   
+
+}
+
+.navbar h2{
+
+    font-size: 2vw;
+    font-weight: 700;
+    margin-left: 60px;
+    text-decoration:none;
+    color: #000;
+}
+
+h4{
+   font-weight: 1.1vh; 
+   color: #000;
+   text-decoration: none;
+}
+
+.navbarpt2 i{
+    display: none;
+}
+
+.navbarpt2 a{
+    text-decoration: none;
+}
+
+.content{
+    height: calc( 100% - 20px);
+    width: 99%;
+    /* background-color: #000; */
+    display: flex;
+}
+
+
+.left{
+    height: 100%;
+    width: 55%;
+    /* background-color: burlywood; */
+    padding: 5vw 4vw;
+
+}
+
+.left h1{
+
+    font-size: 4vw;
+    line-height: 4.4vw;
+    font-family: 'Trebuchet MS';
+}
+
+.left h1 span{
+    color: #FF735C;
+}
+
+.left p{
+    color: #666;
+    font-size: 1.5vw;
+    font-weight: 400;
+    font-family: 'Trebuchet MS';
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 3vw;
+}
+
+.content button{
+    font-size: 1.2vw;
+    padding:1.1vw 2.1vw;
+    background-color: #FF735C;
+    font-family: 'Trebuchet MS';
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.right{
+    height: 100%;
+    width: 45%;
+    /* background-color: burlywood; */
+}
+
+.right img{
+    height:100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+    .navbar{
+        
+        height: 60px;
+    }
+
+    .logo{
+        height: 10vw;
+        margin-top: 10px;
+    }
+    
+    .navbar h2{
+         font-size: 6.5vw;
+         margin-left: 24px;
+    }
+
+    .navbarpt2 h4{
+        font-size: 4vw;
+        display: none;
+    }
+
+    .navbar button{
+        display: none;
+    }
+
+    .navbarpt2 i{
+        font-size: 1.6vw;
+        font-weight: 700;
+        display:inline-block;
+        font-size: 7vw;
+        margin-left: calc(80vw - 130px);
+        
+        
+    }
+
+ .content{
+    height: calc(100% - 60px);
+    flex-direction: column;
+ }
+
+ .left{
+    height: 40vh;
+    width:92vw;
+    
+ }
+ .right{
+    height: 40vh;
+    width:92vw;
+ }
+
+ .right img{
+    height: 79.5vw;
+    width: 100%;
+ }
+
+ .left h1{
+    font-size: 8.5vw;
+    line-height: 11vw;
+    width: 100%;
+ }
+
+ .left p{
+    font-size: 3.5vw;
+    width: 100%;
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+ }
+
+ .content button{
+    padding: 3vw 7vw;
+    font-size: 3.5vw;
+ }
+
+ 
+
+
+    
+    
+}
+
+
